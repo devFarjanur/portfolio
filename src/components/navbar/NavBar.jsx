@@ -60,9 +60,9 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
           <Link
             onClick={() => window.scrollTo(0, 0)}
             to="/"
-            className="text-3xl font-bold sm:text-3xl"
+            className="text-2xl font-bold sm:text-3xl"
           >
-            John Doe.
+            Farjanur Rahman Fahim
           </Link>
         </div>
         <div
