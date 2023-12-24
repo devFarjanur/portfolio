@@ -14,7 +14,7 @@ import img from "../../assets/Farjanur Rahman Fahim.jpg"
 
 const Hero = () => {
   return (
-    <div id="home" className={` bg-gradient-to-r from-green-200 to-blue-200 `}>
+    <div id="home" className={`bg-gradient-to-r from-green-200 to-blue-200 `}>
       <div className=" container mx-auto pt-5 h-[750px] md:h-[100vh] md:flex-col-reverse sm:h-[780px]  flex sm:flex-col-reverse sm:pt-0 ">
         <div className=" left mt-4 md:mt-0 flex-1 flex flex-col justify-center gap-5 w-1/2 md:w-full md:py-2 sm:py-0">
           <div className="info w-fit flex flex-col items-start justify-center gap-3 sm:gap-2">
@@ -99,25 +99,25 @@ const Hero = () => {
             </ul>
           </div>
         </div>
-        <div className="right  top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
-          <div className="relative h-[88%] w-fit flex items-center sm:items-end">
+        <div className="right top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
+          <div className=" relative sm:h-[100%] h-[80%] w-fit flex items-center sm:items-end">
             <img
             data-aos="fade-up"
-              className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0 rounded"
+              className="sm:h-[320px] sm:w-[260px] md:h-[350px] md:w-[270px] mx-auto lg:h-[550px] lg:w-[380px] xl:h-[550px] xl:w-[380px] 2xl:h-[550px] 2xl:w-[380px] rounded"
               // src='https://i.postimg.cc/pTn61Gr1/Untitled-design222-modified.png'
               src={img}
               // src={mine}
               alt="mine"
             />
-            <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
+            <div className="absolute bottom-10 md:bottom-3 right-8 md:right-2">
               <div data-aos="zoom-in" data-aos-duration="1000"  className=" relative cursor-pointer">
                 <img
-                  className=" w-[135px] md:w-[90px] circle-text"
+                  className="w-[135px] md:w-[90px] sm:w-[90px] circle-text"
                   src="https://ik.imagekit.io/imgkitt/tr:w-400/Full_Stack_Developer2.png?updatedAt=1683134009107"
                   alt=""
                 />
                 <FaPlay
-                  className=" text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+                  className="text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
                 />
               </div>
             </div>
